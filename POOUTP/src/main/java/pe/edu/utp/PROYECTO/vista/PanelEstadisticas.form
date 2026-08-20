@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="pe.edu.utp.PROYECTO.vista.PanelEstadisticas">
+  <grid id="27dc6" binding="jpEstadisticas" layout-manager="GridLayoutManager" row-count="6" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="25" left="25" bottom="25" right="25"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-1445651"/>
+    </properties>
+    <border type="line"/>
+    <children>
+      <component id="573e6" class="javax.swing.JLabel" binding="txtProyectoEstado">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI Black" size="18" style="2"/>
+          <text value="Proyecto por Estado"/>
+        </properties>
+      </component>
+      <component id="2c81e" class="javax.swing.JLabel" binding="txtTareaPrioridad">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI Black" size="18" style="2"/>
+          <text value="Tareas por Prioridad"/>
+        </properties>
+      </component>
+      <component id="9a97b" class="javax.swing.JLabel" binding="txtTareaEstado">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI Black" size="18" style="2"/>
+          <text value="Tareas por Estado"/>
+        </properties>
+      </component>
+      <component id="a4779" class="javax.swing.JLabel" binding="txtProyectoGeneral">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI Black" size="18" style="2"/>
+          <text value="Proyectos (GENERAL)"/>
+        </properties>
+      </component>
+      <grid id="859d4" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-986379"/>
+        </properties>
+        <border type="line"/>
+        <children>
+          <component id="a6780" class="javax.swing.JLabel" binding="txtActivos">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="18" style="1"/>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="4"/>
+              <icon value="icons/si.png"/>
+              <text value="Activos:"/>
+            </properties>
+          </component>
+          <component id="f9dd" class="javax.swing.JLabel" binding="txtPausados">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="18" style="1"/>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="4"/>
+              <icon value="icons/pausa.png"/>
+              <text value="Pausados:"/>
+            </properties>
+          </component>
+          <component id="beba6" class="javax.swing.JLabel" binding="txtFinalizados">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="18" style="1"/>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="4"/>
+              <icon value="icons/fin.png"/>
+              <text value="Finalizados:"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="967c4" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-657414"/>
+        </properties>
+        <border type="line"/>
+        <children>
+          <component id="1d774" class="javax.swing.JLabel" binding="txtPendientes">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="18" style="1"/>
+              <icon value="icons/reloj.png"/>
+              <text value="Pendientes:"/>
+            </properties>
+          </component>
+          <component id="98335" class="javax.swing.JLabel" binding="txtEnCurso">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="18" style="1"/>
+              <icon value="icons/barra-de-carga.png"/>
+              <text value="En Curso:"/>
+            </properties>
+          </component>
+          <component id="5ef8f" class="javax.swing.JLabel" binding="txtFinalizadas">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="18" style="1"/>
+              <icon value="icons/fin.png"/>
+              <text value="Finalizadas:"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="eb80d" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-657414"/>
+        </properties>
+        <border type="line"/>
+        <children>
+          <component id="bac09" class="javax.swing.JLabel" binding="txtAlta">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="18" style="1"/>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="4"/>
+              <icon value="icons/importante.png"/>
+              <text value="Alta:"/>
+            </properties>
+          </component>
+          <component id="26d47" class="javax.swing.JLabel" binding="txtMedia">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="18" style="1"/>
+              <icon value="icons/bateria-mediana.png"/>
+              <text value="Media:"/>
+            </properties>
+          </component>
+          <component id="50ba9" class="javax.swing.JLabel" binding="txtBaja">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="18" style="1"/>
+              <icon value="icons/bajo-rendimiento.png"/>
+              <text value="Baja:"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="b3a0" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-657414"/>
+        </properties>
+        <border type="line"/>
+        <children>
+          <component id="c8f51" class="javax.swing.JLabel" binding="txtTareasTotales">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="18" style="1"/>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="4"/>
+              <icon value="icons/todos.png"/>
+              <text value="Tareas Totales:"/>
+            </properties>
+          </component>
+          <component id="3037d" class="javax.swing.JLabel" binding="txtFINALIZADAS">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="18" style="1"/>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="4"/>
+              <icon value="icons/fin.png"/>
+              <text value="Finalizadas:"/>
+            </properties>
+          </component>
+          <component id="6a34d" class="javax.swing.JLabel" binding="txtAvance">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="18" style="1"/>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="4"/>
+              <icon value="icons/porcentaje.png"/>
+              <text value="Avance:"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="ba10a" class="javax.swing.JButton" binding="btnRegresar">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-986379"/>
+          <font name="Segoe UI" size="18" style="1"/>
+          <icon value="icons/atras.png"/>
+          <text value="Regresar"/>
+        </properties>
+      </component>
+      <component id="2350c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="22" style="1"/>
+          <horizontalAlignment value="2"/>
+          <horizontalTextPosition value="4"/>
+          <icon value="icons/estadisticas.png"/>
+          <text value="ESTADISTICAS DEL SISTEMA"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

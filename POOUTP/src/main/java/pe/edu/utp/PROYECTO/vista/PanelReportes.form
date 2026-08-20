@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="pe.edu.utp.PROYECTO.vista.PanelReportes">
+  <grid id="27dc6" binding="jpReportes" layout-manager="GridLayoutManager" row-count="4" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="25" left="25" bottom="25" right="25"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="line"/>
+    <children>
+      <component id="17777" class="javax.swing.JLabel" binding="txtReportesSistema">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="20" style="1"/>
+          <icon value="icons/reporte.png"/>
+          <text value="REPORTES DEL SISTEMA"/>
+        </properties>
+      </component>
+      <grid id="17a82" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="4" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-657414"/>
+        </properties>
+        <border type="line"/>
+        <children>
+          <component id="f7aac" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="16" style="1"/>
+              <text value="TIPO DE REPORTE: (USUARIO/PROYECTO/TAREA)"/>
+            </properties>
+          </component>
+          <grid id="3dd2c" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-986379"/>
+            </properties>
+            <border type="line"/>
+            <children>
+              <component id="1a6e7" class="javax.swing.JComboBox" binding="cboxTipoReporte">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-2236704"/>
+                  <font name="Segoe UI" size="18" style="1"/>
+                  <model>
+                    <item value="USUARIOS"/>
+                    <item value="TAREAS"/>
+                    <item value="PROYECTOS"/>
+                  </model>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="d5b75" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="Segoe UI" size="16" style="1"/>
+              <text value="FORMATO DE EXPORTACIÓN: (PDF/EXCEL/HTML)"/>
+            </properties>
+          </component>
+          <grid id="705a" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-986379"/>
+            </properties>
+            <border type="line"/>
+            <children>
+              <component id="44297" class="javax.swing.JComboBox" binding="cboxFormato">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-2236704"/>
+                  <font name="Segoe UI" size="18" style="1"/>
+                  <model>
+                    <item value="PDF"/>
+                    <item value="EXCEL"/>
+                    <item value="HTML"/>
+                  </model>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="c87fa" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="4" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="line"/>
+        <children>
+          <component id="db4dc" class="javax.swing.JButton" binding="btnGenerarReporte">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1640966"/>
+              <font name="Segoe UI" size="16" style="1"/>
+              <icon value="icons/reporte.png"/>
+              <text value="GENERAR REPORTE"/>
+            </properties>
+          </component>
+          <component id="8e7be" class="javax.swing.JButton" binding="btnRegresar">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-332050"/>
+              <font name="Segoe UI" size="16" style="1"/>
+              <icon value="icons/atras.png"/>
+              <text value="REGRESAR"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="8f45a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="16" style="2"/>
+          <text value="Seleccione el tipo de reporte y el formato de exportación."/>
+        </properties>
+      </component>
+      <component id="2f5fd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="icons/documento-pdf.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="8c538" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="icons/html-5.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d0a29" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="icons/sobresalir.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

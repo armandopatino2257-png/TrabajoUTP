@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="pe.edu.utp.PROYECTO.vista.PanelPRINCIPAL">
+  <grid id="27dc6" binding="jpPrincipal" layout-manager="GridLayoutManager" row-count="10" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="25" left="25" bottom="25" right="25"/>
+    <constraints>
+      <xy x="20" y="20" width="845" height="580"/>
+    </constraints>
+    <properties>
+      <background color="-986379"/>
+    </properties>
+    <border type="line"/>
+    <children>
+      <component id="2f7ce" class="javax.swing.JButton" binding="btnUsuarios">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1181702"/>
+          <font name="Segoe UI" size="18" style="1"/>
+          <horizontalAlignment value="2"/>
+          <horizontalTextPosition value="4"/>
+          <icon value="icons/usuario.png"/>
+          <text value="USUARIOS"/>
+        </properties>
+      </component>
+      <component id="d652f" class="javax.swing.JButton" binding="btnProyectos">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1181702"/>
+          <font name="Segoe UI" size="18" style="1"/>
+          <horizontalAlignment value="2"/>
+          <horizontalTextPosition value="4"/>
+          <icon value="icons/proyecto.png"/>
+          <text value="PROYECTOS"/>
+        </properties>
+      </component>
+      <component id="85321" class="javax.swing.JButton" binding="btnTareas">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1181702"/>
+          <font name="Segoe UI" size="18" style="1"/>
+          <horizontalAlignment value="2"/>
+          <horizontalTextPosition value="4"/>
+          <icon value="icons/lista-de-tareas.png"/>
+          <text value="TAREAS"/>
+        </properties>
+      </component>
+      <component id="85db1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bahnschrift" size="22" style="0"/>
+          <horizontalAlignment value="10"/>
+          <horizontalTextPosition value="2"/>
+          <icon value="icons/UTP.png"/>
+          <text value="Sistema de Administración de Proyectos y Tareas"/>
+        </properties>
+      </component>
+      <component id="4aebb" class="javax.swing.JButton" binding="btnReportes">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1181702"/>
+          <font name="Segoe UI" size="18" style="1"/>
+          <horizontalAlignment value="2"/>
+          <horizontalTextPosition value="4"/>
+          <icon value="icons/reporte.png"/>
+          <text value="REPORTES"/>
+        </properties>
+      </component>
+      <component id="6991b" class="javax.swing.JButton" binding="btnSalir">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-332050"/>
+          <font name="Segoe UI" size="18" style="1"/>
+          <horizontalAlignment value="2"/>
+          <horizontalTextPosition value="4"/>
+          <icon value="icons/salida.png"/>
+          <text value="SALIR"/>
+        </properties>
+      </component>
+      <component id="b7b02" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Segoe UI" size="14" style="2"/>
+          <text value="Panel Principal"/>
+        </properties>
+      </component>
+      <grid id="5d7c8" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1644826"/>
+        </properties>
+        <border type="line">
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <component id="1efc0" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-657414"/>
+              <font name="Segoe UI" size="16" style="1"/>
+              <icon value="icons/gestion-de-base-de-datos.png"/>
+              <text value="Estado: CONECTADO"/>
+            </properties>
+          </component>
+          <component id="ae66e" class="javax.swing.JLabel" binding="lblFecha">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="16" style="1"/>
+              <icon value="icons/fecha-limite.png"/>
+              <text value="Año: 2026"/>
+            </properties>
+          </component>
+          <component id="6c025" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="16" style="1"/>
+              <icon value="icons/admin(1).png"/>
+              <text value="Usuario: Administrador"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="c2a98" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="line"/>
+        <children>
+          <component id="b4e3e" class="javax.swing.JLabel" binding="txtUsuariosRegistrados">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="18" style="2"/>
+              <icon value="icons/aprobar.png"/>
+              <text value="Usuarios registrados:"/>
+            </properties>
+          </component>
+          <component id="a1287" class="javax.swing.JLabel" binding="txtProyectosRegistrados">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="18" style="2"/>
+              <icon value="icons/proyecto.png"/>
+              <text value="Proyectos: registrados"/>
+            </properties>
+          </component>
+          <component id="44408" class="javax.swing.JLabel" binding="txtTareasRegistradas">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="18" style="2"/>
+              <icon value="icons/lista-de-verificacion.png"/>
+              <text value="Tareas registradas:"/>
+            </properties>
+          </component>
+          <component id="b1daf" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="18" style="1"/>
+              <text value="DashBoard"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="18d20" class="javax.swing.JButton" binding="btnEstadisticas">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1181702"/>
+          <font name="Segoe UI" size="18" style="1"/>
+          <horizontalAlignment value="2"/>
+          <horizontalTextPosition value="4"/>
+          <icon value="icons/estadisticas.png"/>
+          <text value="ESTADISTICAS"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
